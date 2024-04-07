@@ -36,3 +36,84 @@
     transform: rotate(360deg);
   }
 }
+
+.form-label {
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+/* Style for the form container */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for form labels */
+.form-label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Style for input and select elements */
+.form-control {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Style for submit button */
+.btn-primary {
+  width: 100%;
+}
+
+/* Style for output section */
+.output-section {
+  margin-top: 20px;
+}
+
+/* Style for error message */
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Style for prediction text */
+.prediction-text {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Style for the prediction-result container */
+.prediction-result {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8f9fa; /* Light gray background */
+  border: 1px solid #ced4da; /* Gray border */
+  border-radius: 5px;
+}
+
+/* Style for the prediction text */
+.prediction-result .prediction-text {
+  font-weight: bold;
+  color: #007bff;
+  display: inline-block;
+}
+
+/* Style for the error message */
+.prediction-result .alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
